@@ -24,11 +24,11 @@
 
     // Set the Mapbox access token for API access
     //
-    [MBXMapKit setAccessToken:@"pk.eyJ1IjoianVzdGluIiwiYSI6IlpDbUJLSUEifQ.4mG8vhelFMju6HpIY-Hi5A"];
+    [MBXMapKit setAccessToken:@"pk.eyJ1IjoiYmxlZWdlIiwiYSI6IjFmMDM3ODUwYzIwNDNlNzFlZmE5N2VlZTRlYzkxYzMwIn0.IJaNkbzTUjMigdd_jm5kWg"];
 
     _mapView.delegate = self;
 
-    _rasterOverlay = [[MBXRasterTileOverlay alloc] initWithMapID:@"examples.map-pgygbwdm"];
+    _rasterOverlay = [[MBXRasterTileOverlay alloc] initWithMapID:@"bleege.mnl6171l"];
 
     _rasterOverlay.delegate = self;
 
